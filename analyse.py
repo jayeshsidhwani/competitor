@@ -34,6 +34,3 @@ class Analyse():
         for word, count in phrase_occurrence.items():
             f.write("%s,%s\n" %(word, count))
         f.close()
-
-if __name__ == '__main__':
-    Analyse().extract_keywords()
