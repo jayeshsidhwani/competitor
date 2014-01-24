@@ -1,4 +1,4 @@
-import urllib2, code, json, time, pickle
+import urllib2, json, time, pickle
 
 class FetchCompany():
 
