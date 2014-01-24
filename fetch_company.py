@@ -1,9 +1,9 @@
-import urllib2, code, json, time, pickle
+import urllib2, json, time, pickle
 
 class FetchCompany():
 
-    def __init__(self):
-        self.crunchbase_key = "mr2nradvupjw8nz22d946svh"
+    def __init__(self, key):
+        self.crunchbase_key = key
         self.companies = {}
         self.count = 0
 
@@ -27,6 +27,3 @@ class FetchCompany():
                 time.sleep(1)
             except:
                 pass
-
-if __name__ == '__main__':
-    FetchCompany().get_crunchbase('retail')
