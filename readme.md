@@ -1,6 +1,6 @@
 # Competitor Analysis
 
-* **Author**: Jayesh Sidhwani
+**Author**: Jayesh Sidhwani
 
 I started working on this project to use NLP to find competitors for a given company. It is usually a tough process
 to google on the seed keyword, find companies and then find more keywords to find more companies. This was an attempt
